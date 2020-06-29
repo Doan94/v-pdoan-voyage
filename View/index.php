@@ -3,13 +3,15 @@
 
 <main>
   <!-- <div class="container-fluid"> -->
-      <div class="jumbotron container-fluid img-fluid w-100 mb-0" style="background-image: url(static/img/sable.jpg);">
-        <div class="container light-blue card">
+    <img src="static/img/palmier.jpg" width="100%">
+      <!-- <div class="jumbotron container-fluid img-fluid w-100 mb-0" style="background-image: url(static/img/sable.jpg);"> -->
+      <div class="container-fluid amber lighten-4 pt-3 pb-3">
+        <div class="container green lighten-2 card">
           <?php if (empty($this->oPosts)): ?>
               <h1>Il n'y a aucun article.</h1>
               <p><button type="button" onclick="window.location='<?=ROOT_URL?>admin_add.html'" class="btn waves-effect waves-light">Ajoutez votre premier article!</button></p>
           <?php else: ?>
-          <h1 class="page-title mt-5 mb-5 text-white">Mon blog voyage...</h1>
+          <h1 class="page-title mt-5 mb-5 text-white center-align">Mon blog voyage...</h1>
           <div class="row">
 
             <!-- ARTICLES -->
@@ -36,6 +38,7 @@
             <?php endforeach ?>
           </div>
         </div>
+      </div>
      <!-- </div> -->
 </main>
 <?php endif ?>

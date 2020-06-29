@@ -1,12 +1,12 @@
 <?php require 'inc/header.php' ?>
 <?php require 'inc/topbar.php' ?>
 <main>
-  <div class="container">
-    <h1 class="page-title">Liste des chapitres</h1>
+  <div class="container-fluid amber pb-2 lighten-4">
+    <h1 class="page-title pt-3 center-align text-white">Liste des chapitres</h1>
     <?php foreach ($this->oPosts as $oPost): ?>
-      <div class="row">
+      <div class="container row mx-auto">
         <hr>
-  			<div class="col s12 m12 l12">
+  			<div class="col s12 m12 l12 card green lighten-2">
   				<h4><?= $oPost->title ?></h4>
   				<div class="row">
   					<div class="col s12 m6 l8">
