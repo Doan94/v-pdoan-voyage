@@ -1,12 +1,12 @@
-ErrorDocument 403 /blog-php-mvc/view/error.php
-ErrorDocument 404 /blog-php-mvc/view/error.php
-ErrorDocument 405 /blog-php-mvc/view/error.php
-ErrorDocument 408 /blog-php-mvc/view/error.php
-ErrorDocument 500 /blog-php-mvc/view/error.php
-ErrorDocument 502 /blog-php-mvc/view/error.php
-ErrorDocument 504 /blog-php-mvc/view/error.php
+ErrorDocument 403 /v-pdoan-voyage/view/error.php
+ErrorDocument 404 /v-pdoan-voyage/view/error.php
+ErrorDocument 405 /v-pdoan-voyage/view/error.php
+ErrorDocument 408 /v-pdoan-voyage/view/error.php
+ErrorDocument 500 /v-pdoan-voyage/view/error.php
+ErrorDocument 502 /v-pdoan-voyage/view/error.php
+ErrorDocument 504 /v-pdoan-voyage/view/error.php
 
 RewriteEngine On
-RewriteRule ^([^_]*)_([^_]*)\.html$ /blog-php-mvc/?p=$1&a=$2 [L]
-RewriteRule ^([^_]*)_([^_]*)_([^_]*)\.html$ /blog-php-mvc/?p=$1&a=$2&id=$3 [L]
-RewriteRule ^([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)\.html$ /blog-php-mvc/?p=$1&a=$2&postid=$3&commentId=$4&vote=$5 [L]
+RewriteRule ^([^_]*)_([^_]*)\.html$ /v-pdoan-voyage/?p=$1&a=$2 [L]
+RewriteRule ^([^_]*)_([^_]*)_([^_]*)\.html$ /v-pdoan-voyage/?p=$1&a=$2&id=$3 [L]
+RewriteRule ^([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)\.html$ /v-pdoan-voyage/?p=$1&a=$2&postid=$3&commentId=$4&vote=$5 [L]

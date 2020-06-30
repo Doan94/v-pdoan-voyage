@@ -6,7 +6,7 @@
 
 				<img src="static/img/bird2.png" alt="connexion" width="4%">
 
-				<a href="<?=ROOT_URL?>blog_index.html" class="brand-logo pl-2">V.P-Doan</a>
+				<a href="<?=ROOT_URL?>blog_index.html" class="brand-logo titresite pl-2">V.P-Doan</a>
 
 				<a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
 

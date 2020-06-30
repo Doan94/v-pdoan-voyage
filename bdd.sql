@@ -11,10 +11,10 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 --
--- Database: `blog-php-mvc`
+-- Database: `v-pdoan-voyage`
 --
-CREATE DATABASE IF NOT EXISTS `blog-php-mvc` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `blog-php-mvc`;
+CREATE DATABASE IF NOT EXISTS `v-pdoan-voyage` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `v-pdoan-voyage`;
 
 -- --------------------------------------------------------
 

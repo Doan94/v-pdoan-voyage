@@ -23,7 +23,7 @@
                     <h6 class="grey-text">Le <?=date('d/m/Y à H:i', strtotime($oPost->createdDate));?></h6>
                   </div>
                   <div class="card-image waves-effect waves-block waves-light">
-                    <img src="<?=ROOT_URL?>static/img/posts/<?= $oPost->image ?>" class="activator" alt="<?= $oPost->title ?>">
+                    <img style="width:600px; height:400px;" src="<?=ROOT_URL?>static/img/posts/<?= $oPost->image ?>" class="activator" alt="<?= $oPost->title ?>">
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
