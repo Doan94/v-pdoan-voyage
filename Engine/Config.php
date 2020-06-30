@@ -9,7 +9,7 @@ final class Config
     DB_HOST = 'localhost',
     DB_NAME = 'v-pdoan-voyage',
     DB_USR = 'root',
-    DB_PWD = '',
+    DB_PWD = 'root',
 
     // Titre du site
     SITE_NAME = 'v-pdoan-voyage';
