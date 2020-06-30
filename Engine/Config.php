@@ -7,10 +7,10 @@ final class Config
     // Identifiants Database
     const
     DB_HOST = 'localhost',
-    DB_NAME = 'blog-php-mvc',
+    DB_NAME = 'v-pdoan-voyage',
     DB_USR = 'root',
-    DB_PWD = 'root',
+    DB_PWD = '',
 
     // Titre du site
-    SITE_NAME = 'Billet simple pour l\'Alaska';
+    SITE_NAME = 'v-pdoan-voyage';
 }
